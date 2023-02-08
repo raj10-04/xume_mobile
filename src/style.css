@@ -1,0 +1,413 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+html, body, html * {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+:root{
+    --yellow: #f2c21e;
+    --green : #109a73;
+    --light_green:#b6ffc0;
+    --orange:#f16e26;
+    --red:#e24227;
+}
+
+.bi{
+    position: absolute;
+    width: 40px;
+    height: 10%;
+}
+
+a{
+    color: black;
+}
+
+.slide{
+    margin: 0 0 100px 0;
+}
+
+.right_line{
+    position: absolute;
+    right: 0%;
+}
+
+.main_element{
+    position: absolute;
+    left: 0;
+    top: 48%;
+}
+
+.slide-1{
+    z-index: 0;
+}
+
+.slide-1 .col-8{
+    padding: 0 0 !important;
+}
+
+.slide-1 .col-4{
+    margin-top: 5%;
+    padding: 0 0 !important;
+}
+
+.yellowtext{
+    color: var(--yellow);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.5vw;
+    position: relative;
+    top: -88%;
+    left: 2%;
+}
+
+.slide1-text {
+    font-size: 16px;
+}
+
+.slide-1 .download-btn{
+    border-radius: 25px;
+    font-weight: bold;
+    color: #1a1323;
+    background-color: aqua;
+    padding: 2%;
+}
+
+.slide-1 .download-btn:hover{
+    background-color: rgb(240, 190, 253);
+}
+
+.slide-1 .download-opts{
+    color: white;
+    font-size: xx-large;
+    margin-top: 1.5%;
+    padding: 2%;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.slide .download-opts:hover{
+    color: rgb(240, 190, 253);
+    box-shadow: 0px 0px 5px 5px lightgoldenrodyellow;
+}
+
+.slide-titletext{
+    color: white;
+    font-size: 65px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+.slide2-titletext{
+    color: rgba(245, 245, 245, 0.685);
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+
+.container{
+    border-bottom: 1px solid white;
+}
+
+.nav {
+  background: #000;
+  height: 80px; /* set same as height & line-height below */
+  z-index: 2;
+}
+
+/* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+.nav li {
+  display: inline-block;
+  list-style: none;
+  height: 60px; /* should be the same as line-height */
+  line-height: 60px; /* should be the same as height */
+  padding-left: 50px; /* "0" sets top and bottom padding to none */
+}
+
+
+/* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
+.navbar-nav li a {
+    font-weight: bold;
+    color: grey;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:active {
+    color: #f2c21e !important;
+}
+
+.slide-text_red{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-align: left;
+    padding-left: 55%;
+}
+
+.slide3-lasttext{
+    position: absolute;
+    top: 3305px;
+    left: 233px;
+    color: white;
+}
+
+.move_left{
+    position: absolute;
+    margin-left: 10%;
+}
+
+.btn_1{
+    background-color:#1a1323;
+    color:white;
+    border-radius: 30px;
+}
+
+/* .right_wave{
+    position: absolute;
+    right: -70%;
+    top: -47%;
+    height: 550px;
+    width: auto;
+} */
+
+.right_wave{
+    position: absolute;
+    height: 450px;
+    right: 0%;
+    width: auto;
+}
+
+.left_wave{
+    position: absolute;
+    left: 0%;
+    height: 450px;
+    z-index: 1;
+}
+
+.slide-2{
+    position: relative;
+}
+
+.redtext{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    color: #f16e26;
+    font-size: 2.5vw;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+}
+
+.slide2-text{
+color: white;
+font-family: 'Montserrat',sans-serif;
+padding-left: 4%;
+font-size: 1vw;
+position: absolute;
+top: 90%;
+}
+
+.slide-2 .img-1{
+    position: absolute;
+    left: 0%;
+    height: 100%;
+}
+.slide-2 .img-2{
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    height: 100%;
+}
+.slide-2 .img-3{
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    height: 100%;
+}
+.slide-2 .img-4{
+    position: absolute;
+    top: 78%;
+    right: 0%;
+    height: 100%;
+}
+
+.slide-3 {
+    position: relative;
+}
+
+.slide-3 span{
+    color: var(--orange);
+}
+
+.slide-3_text{
+    color: rgba(255, 255, 255, 0.700);
+    position: absolute ;
+    top: 35%;
+    right: 3%;
+    font-weight: 900;
+    font-family: 'Montserrat';
+    font-size: 5vw;
+}
+
+.slide-3_text-2{
+    color: var(--orange);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+    position: absolute ;
+    right: 7%;
+    top: 78%; 
+}
+
+.slide-3_text-3{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1vw;
+}
+
+.slide-4{
+    position: relative;
+}
+
+.slide-4_white{
+    color: white;
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    left: 5%;
+}
+
+.slide-4_yellow{
+    color: var(--yellow);
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    top: 20%;
+    right: 9%;
+    font-size: 2.5vw;
+}
+
+.slide-4 p{
+    color: white;
+    position: absolute;
+    top: 84%;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1vw;
+    padding-left: 10%;
+}
+
+.slide-6{
+    color: white;
+}
+
+.slide-6 .comment-slider{
+    overflow-x: hidden;
+    height: 600px;
+}
+
+.slide-6 .img-1, .img-2 {
+    height: 180px;
+}
+
+.slide-6 .img-3,.img-4,.img-5{
+    height: 250px;
+}
+
+.slide-6 .comment-slider h2{
+    color: #f2c21e;
+}
+
+.slide-6_text{
+    color: rgba(255, 255, 255, 0.700);
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12vw;
+    margin-left: 2%;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+    min-height: 20px;
+    max-height: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.7); 
+  }
+.address{
+    color: var(--yellow);
+}
+
+.mobile{
+    color: var(--yellow);
+}
+
+.footer_info{
+    color: white;
+    position: relative;
+    top: 15vh;
+    margin-left: -5vw;
+}
+
+.footer_col2 {
+    right: -7vw;
+    position: relative;
+    top: -2vh;
+    height: 26vw;
+    width: 14vw;
+  }
+.founder {
+    position: absolute;
+    left: 37%;
+    top: 4vh;
+    width: 39vw;
+}
+.footer_col1{
+    rotate: 90deg;
+    position: absolute;
+    left: 19vw;
+    bottom: -35vh;
+    width: 15vw;
+}
+
+.founder_info {
+    position: absolute;
+    color: white;
+    left: 51vw;
+    top: 11vw;
+    width: 40vw;
+  }
